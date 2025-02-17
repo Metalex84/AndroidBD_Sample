@@ -45,19 +45,19 @@ public class MainActivity extends AppCompatActivity {
         ContentValues registro = new ContentValues();
 
         // Inserto el jugador 1
-        registro.put("id", 1);
+        // registro.put("id", 1);
         registro.put("nombre","Lamine Yamal");
         registro.put("equipo","Barcelona");
         baseDeDatos.insert("futbolistas",null, registro);
 
         // Inserto el jugador 2
-        registro.put("id", 2);
+        // registro.put("id", 2);
         registro.put("nombre","Bellingham");
         registro.put("equipo","Real Madrid");
         baseDeDatos.insert("futbolistas",null, registro);
 
         // Inserto el jugador 3
-        registro.put("id", 3);
+        //registro.put("id", 3);
         registro.put("nombre","Griezmann");
         registro.put("equipo","Atletico");
         baseDeDatos.insert("futbolistas",null, registro);

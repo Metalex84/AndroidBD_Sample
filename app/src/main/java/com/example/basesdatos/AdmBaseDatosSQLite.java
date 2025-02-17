@@ -20,7 +20,7 @@ public class AdmBaseDatosSQLite extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("CREATE TABLE futbolistas(id INT PRIMARY KEY, nombre TEXT, equipo TEXT)");
+        db.execSQL("CREATE TABLE futbolistas(id INT PRIMARY KEY AUTOINCREMENT, nombre TEXT, equipo TEXT)");
     }
 
     @Override
